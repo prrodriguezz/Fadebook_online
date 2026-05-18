@@ -1,0 +1,59 @@
+<style>
+  .font-staatliches {
+    font-family: 'Staatliches', sans-serif;
+  }
+
+  .font-black {
+    font-weight: 500;
+
+  }
+
+  .text-p-agende {
+    text-align: end;
+  }
+</style>
+
+<section class="min-h-screen bg-black flex items-center justify-center">
+  <div class="relative w-full w-[78%] bg-[#ded9cc] rounded-md p-8">
+    <div class="relative bg-[#FF6A3B] rounded-md min-h-[520px] p-10 overflow-hidden">
+
+      <div class="absolute left-0 top-16 space-y-24">
+        <div class="w-9 h-5 bg-[#ded9cc] rounded-r-md"></div>
+        <div class="w-9 h-5 bg-[#ded9cc] rounded-r-md"></div>
+        <div class="w-9 h-5 bg-[#ded9cc] rounded-r-md"></div>
+      </div>
+
+      <p class="absolute right-20 top-16 text-black font-black tracking-[0.18em] uppercase text-sm text-p-agende">
+        Agende um <br />
+        horário
+      </p>
+
+      <div class="absolute left-[10rem] top-[0rem]">
+        <h1 class="text-black font-black uppercase leading-[1.2] text-[clamp(17rem,14vw,13rem)] font-staatliches">
+          Barb
+        </h1>
+      </div>
+
+      <div class="absolute right-24 bottom-[-4rem]">
+        <h1 class="text-black font-black uppercase leading-[1.5] text-[clamp(17rem,14vw,13rem)] font-staatliches ">
+          Eiro
+        </h1>
+      </div>
+
+      <div class="absolute left-24 bottom-24 space-y-4">
+        <p class="text-black font-black uppercase tracking-[0.16em] text-sm font-staatliches">
+          — Agendamento online
+        </p>
+        <p class="text-black font-black uppercase tracking-[0.16em] text-sm font-staatliches">
+          — Escolha seu barbeiro preferido
+        </p>
+        <p class="text-black font-black uppercase tracking-[0.16em] text-sm font-staatliches">
+          — Acompanhe tendências
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<router-outlet />
